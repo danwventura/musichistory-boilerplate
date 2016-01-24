@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Music History</title>
   <link rel="stylesheet" type= "text/css" href="main.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 
 
@@ -13,9 +14,9 @@
 
 <nav>
 	<ul>
-		<li class="navbar"> View Music|</a></li>
-		<li class="navbar"> Add Music|</a></li>
-		<li class="navbar"> Profile</a></li>
+		<li class="navbar"><a href="View Music"> View Music|</a></li>
+		<li class="navbar"><a href="Add Music"> Add Music|</a></li>
+		<li class="navbar"><a href="Profile"> Profile</a></li>
 	</ul>
 </nav>
 
@@ -25,21 +26,31 @@
 
 
 <form-action="song picker" method="POST">
-	<label for="Song Length:">Song Length</label>
+	<label for="Song Length:">Song Length:</label>
 <br>	
 	<input type="range" placeholder="Song Length">
 
 	
 <br>
-<br>
-	<label for="Artist:" class: "album/artist">Artist:</label>
-	<input type="select" placeholder="options">
+	<p>Artist:</p>
+	<select name="Artist">
+		<option value="Mario">Mario</option>
+		<option value="Drake">Drake</option>
+		<option value="Izzy Bizu">Izzy Bizu</option>
+		<option value="The Strokes">The Strokes</option>
+	</select>
+
+
 
 <br>
-<br>
 
-	<label for="Album:"class: "album/artist">Album:</label>
-	<input type="select" placeholder="options">
+	<p> Album: </p>
+	<select name="Album">
+		<option value="Turning Point">Turning Point</option>
+		<option value="Nothing Was the Same">Nothing Was the Same</option>
+		<option value="A Moment of Madness"> A Moment of Madness</option>
+		<option value="Is This It">Is This It</option>
+	</select>
 <br>
 <br>	
 	<label for="Genre">Genre:</label>
@@ -64,17 +75,19 @@
 
 <section class="music">
 	<ul class="songnav">
-		<h3> Song Name </h3>
-		<li class="Music">Artist Name  |  Album Name  | Genre</a></li>
-		<h3> Song Name </h3>
-		<li class="Music">Artist Name  |  Album Name  | Genre</a></li>
-		<h3> Song Name </h3>
-		<li class="Music">Artist Name  |  Album Name  | Genre</a></li>
-		<h3> Song Name </h3>
-		<li class="Music">Artist Name  |  Album Name  | Genre</a></li>
+		<h4> Let Me Love You </h4>
+		<li class="Music">Mario   |   Turning Point   |  R&B</a></li>
+		<h4> Hold On, We're Going Home </h4>
+		<li class="Music">Drake   |   Nothing Was the Same   |   Hip Hop</a></li>
+		<h4> White Tiger </h4>
+		<li class="Music">Izzy Bizu   |   A Moment of Madness   |  Pop</a></li>
+		<h4> Last Night </h4>
+		<li class="Music">The Strokes  |   Is This It   |  Indie Rock</a></li>
 
 	</ul>
+
 </section>
+
 
 </div>
 

@@ -1,6 +1,7 @@
 body {
-
 	background-color: #fff;
+	max-width: 750px;
+	margin: 0 auto;
 }
 
 nav {
@@ -10,47 +11,53 @@ nav {
 
 }
 
+nav ul{
+	border: .15em solid;
+	border-radius: 3px;
+	border-width: 60%;
+	padding: 1.25em 0 1.25em 1em;
+	background-color: #e0b1ba;
+
+}
+
+
 nav li {
 	display:inline;
 	}
 
 
-nav ul{
-	border: .15em solid;
-	border-width: 100%;
-	padding: 1em 0 1em 0;
-	background-color: pink;
-
-}
-
 
 .container{
 	border: .15em solid #000;
-	background-color: #68B4FF ;
-	float: left;
-	width: 20%;
-	margin: 0 auto 0 .5em;
+	border-radius: 3px;
+	background-color: #58e3f5 ;
+	display:inline-block;
+	padding: 3.5% 10% 2% 1%;
+	max-width: 40%;
+	height:396px;
 
 }
 
 .music{
 	border: .15em solid;
-	background-color: #e8e687;
-	float: left;
-	width: 65%;
-	padding: 0 6em 0 4.5em;
+	border-radius:3px;
+	background-color: #fafab4;
+	display:inline-block;
+	max-width: 50%;
+	padding: 7.75% 20.5% 1% 0%;
 	margin-left: 1em;
 	margin: 0 auto 0 .5em;
-
+	height:372px;
 }
 
 
 .songnav{
 	list-style-type: none;
-}
+	font-family:'Roboto', sans-serif; 
 
-.wrapper{
-	margin: 0 auto;
+}
+.songnav h4 {
+	color:#574E15;
 }
 
 
